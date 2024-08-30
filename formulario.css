@@ -1,0 +1,56 @@
+form{
+    background: #ffffff;
+    width: 60%;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input{
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: 95%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(201,200,200);
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+form textarea{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 95%;
+    max-width: 95%;
+}
+
+form input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #ff059f;
+    color: #ff059f;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background-color: #ff059f;
+    color: #fff;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus{
+    border: 2px solid #ff059f;
+}
+
+form label{
+    font-size: 15px;
+}
